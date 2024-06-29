@@ -10,4 +10,4 @@ export const dbConnection = () => {
     mongoose.connect(connectionString).then(() => {
         console.log('Database is connected')
     })
-}
+};
