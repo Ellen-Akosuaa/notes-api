@@ -2,7 +2,6 @@ import express from "express";
 import notesRouter from "./routes/notes.js";
 import 'dotenv/config'
 import { dbConnection } from "./config/db.js";
-import mongoose from "mongoose";
 
 const app = express();
 
